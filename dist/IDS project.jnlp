@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="IDS project.jnlp">
+  <information>
+    <title>IDS project</title>
+    <vendor>thamu</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/jxfilewatcher-1.4.jar" size="352418" download="eager" />
+    <jar href="lib/jxfilewatcher-1.4.partial.jar" size="91334" download="eager" />
+    <jar href="lib/jxfilewatcher-demo-1.4.jar" size="107146" download="eager" />
+    <jar href="lib/slf4j-api-1.5.8.jar" size="27199" download="eager" />
+    <jar href="lib/slf4j-simple-1.5.8.jar" size="10113" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="IDS project" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ids.project.IDSProject"  name="IDS project" />
+  <update check="always"/>
+</jnlp>
